@@ -1,2 +1,2 @@
 # PandaOS
-Another Linux distro (based on Arch)
+Another Linux distro (based on Arch, created with Archiso)
