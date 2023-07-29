@@ -1,0 +1,25 @@
+#
+# ~/.bashrc
+#
+
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+
+alias ls='ls --color=auto'
+PS1='[\u@\h \W]\$ '
+
+#Display ISO version and distribution information in short
+alias version="sed -n 1p /etc/os-release && sed -n 12p /etc/os-release && sed -n 13p /etc/os-release"
+
+#Pacman Shortcuts
+alias sync="-Syyy"
+alias install="-S"
+alias update="-Syyu"
+alias search="-Ss"
+alias search-local="-Qs"
+alias pkg-info="-Qi"
+alias local-install="-U"
+alias clear-cache="-Scc"
+alias unlock="sudo rm /var/lib/pacman/db.lck"
+alias remove="-R"
+alias autoremove="-Rns"
