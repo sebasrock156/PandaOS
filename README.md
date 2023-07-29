@@ -1,2 +1,4 @@
-# PandaOS
-Another Linux distro (based on Arch, created with Archiso)
+# Pandamonium Linux
+
+This is another Linux-based distro allowing a clean Archlinux Installation.
+
