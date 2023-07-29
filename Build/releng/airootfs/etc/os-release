@@ -1,0 +1,10 @@
+NAME="Pandamonium"
+PRETTY_NAME="Pandamonium Linux"
+ID=pandaos
+ID_LIKE=arch
+BUILD_ID=rolling
+HOME_URL="https://github.com/sebasrock156/PandaOS"
+DOCUMENTATION_URL="https://github.com/sebasrock156/PandaOS/README.md"
+SUPPORT_URL="https://github.com/sebasrock156/PandaOS/Support.md"
+BUG_REPORT_URL="https://github.com/sebasrock156/PandaOS/issues"
+LOGO=archlinux-logo
